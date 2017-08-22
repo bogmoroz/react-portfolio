@@ -26,6 +26,11 @@ li {
   list-style-type: none;
 }
 
+a {
+  text-decoration: none;
+  color: #f79c13;
+}
+
 .container {
   max-width: 1200px;
   margin: 0 auto;
@@ -40,4 +45,16 @@ li {
   margin: 10px;
   font-weight: bold;
   cursor: pointer;
+}
+
+.nav {
+  display: flex;
+}
+
+.active {
+  font-weight: bold;
+}
+
+.nav li {
+  margin-right: 15px;
 }
