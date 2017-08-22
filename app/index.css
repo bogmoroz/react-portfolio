@@ -13,11 +13,31 @@
 }
 
 body {
-  background: #d7ecf2;
+  background: #C6E0FF;
   font-family: 'Roboto';
+  color: #315659;
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  list-style-type: none;
 }
 
 .container {
   max-width: 1200px;
   margin: 0 auto;
+}
+
+.tab-menu {
+  display: flex;
+  justify-content: center;
+}
+
+.tab-menu li {
+  margin: 10px;
+  font-weight: bold;
+  cursor: pointer;
 }
