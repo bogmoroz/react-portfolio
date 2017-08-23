@@ -13,7 +13,7 @@ function Media() {
         so on. The production was carried out under guidance of Dr. Richard Raskin, an
         established short film director and theorist. The film was well received and has
         entered the program of Flensburg Film Festival set for November 2016.'
-        videoUrl='https://youtu.be/Qx4uN7dyJB4'
+        videoUrl='https://www.youtube.com/embed/Qx4uN7dyJB4'
         >
       </ProjectInfo>
 
@@ -23,7 +23,7 @@ function Media() {
         in Mikkeli University of Applied Sciences in the Spring 2015. This was my
         first production where I participated in every aspect of the process. I
         wrote, storyboarded, did camera work and some acting, as well as edited the film.'
-        videoUrl='https://youtu.be/-COuwI5-VBM'
+        videoUrl='https://www.youtube.com/embed/-COuwI5-VBM'
         >
       </ProjectInfo>
 

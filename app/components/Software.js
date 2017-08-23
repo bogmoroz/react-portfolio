@@ -22,7 +22,7 @@ function Software() {
     <ProjectInfo
       title='Smart Floor Sport'
       description='As part of my studies at Amsterdam University of Applied Sciences,
-      I have worked on a project for a company called Trifork. We were building an Android
+      I have worked on a project for a company called Trifork (http://trifork.com/). We were building an Android
       application for a product named Smart Floor Sport - a floor that tracks athlete positions
       and allows gathering data on their speed, movements, tactics and much more. For me, this was 
       a great learning experience as an Android developer, as well as an insight into how modern
