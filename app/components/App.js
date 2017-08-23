@@ -13,7 +13,9 @@ class App extends React.Component {
         <div className='container'>
           <Nav />
           <Route exact path='/' component={Home} />
-
+          <Route exact path='/software' component={Tabs} />
+          <Route exact path='/media' component={Home} />
+          <Route exact path='/contacts' component={Home} />
         </div>
       </Router>
 
