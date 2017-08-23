@@ -137,8 +137,7 @@ a:hover {
   line-height: 30px;
 }
 
-.project-item .project-image-container {
-  width: 400px;
+.project-item .illustration-container {
   margin: auto;
 }
 

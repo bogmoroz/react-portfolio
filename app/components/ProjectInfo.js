@@ -13,7 +13,7 @@ function ProjectInfo(props) {
               <p>{props.description}</p>
             </Linkify>
           </div>
-          <div className='project-image-container'>
+          <div className='illustration-container'>
             <img
               src={props.imageUrl}
             />
@@ -31,10 +31,12 @@ function ProjectInfo(props) {
               <p>{props.description}</p>
             </Linkify>
           </div>
-          <iframe width="560"
-             height="315" src={props.videoUrl}
-             frameborder="0" allowFullScreen="true" webkitallowfullscreen="true"
-              mozallowfullscreen="true"></iframe>
+          <div className='illustration-container'>
+            <iframe width="560"
+               height="315" src={props.videoUrl}
+               frameborder="0" allowFullScreen="true" webkitallowfullscreen="true"
+                mozallowfullscreen="true"></iframe>
+          </div>
         </div>
       </div>
     )

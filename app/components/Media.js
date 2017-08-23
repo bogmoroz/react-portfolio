@@ -11,8 +11,7 @@ function Media() {
         roles during production were camera work and editing, but I have also participated
         in all stages including scripting, storyboarding, location scouting, casting and
         so on. The production was carried out under guidance of Dr. Richard Raskin, an
-        established short film director and theorist. The film was well received and has
-        entered the program of Flensburg Film Festival set for November 2016.'
+        established short film director and theorist.'
         videoUrl='https://www.youtube.com/embed/Qx4uN7dyJB4'
         >
       </ProjectInfo>
