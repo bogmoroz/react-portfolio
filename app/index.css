@@ -128,7 +128,7 @@ a:hover {
   flex-direction: row;
   margin-top: 50px;
   margin-bottom: 50px;
-  justify-content: space-between;  
+  justify-content: space-between;
 }
 
 .project-item .item-description {
@@ -137,11 +137,14 @@ a:hover {
   line-height: 30px;
 }
 
+.project-item .project-image-container {
+  width: 400px;
+  margin: auto;
+}
+
 .project-item img {
   height: 300px;
   width: auto;
-  margin-left: 60px;
-  align-self: center;
 }
 
 .contacts-container {

@@ -6,6 +6,7 @@ var Switch = ReactRouter.Switch;
 var Nav = require('./Nav');
 var Home = require('./Home');
 var Software = require('./Software');
+var Media = require('./Media');
 var Tabs = require('./Tabs');
 var Contacts = require('./Contacts');
 
@@ -18,7 +19,7 @@ class App extends React.Component {
           <Switch>
             <Route exact path='/' component={Home} />
             <Route exact path='/software' component={Software} />
-            <Route exact path='/media' component={Contacts} />
+            <Route exact path='/media' component={Media} />
             <Route exact path='/contacts' component={Contacts} />
             <Route render={function() {
                 return <p>Page Not Found</p>
@@ -26,8 +27,6 @@ class App extends React.Component {
           </Switch>
         </div>
       </Router>
-
-
     )
   }
 }

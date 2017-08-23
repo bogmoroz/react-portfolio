@@ -9,15 +9,17 @@ function ProjectInfo(props) {
       <div className='project-item'>
         <div className='item-description'>
           <h1>{props.title}</h1>
-
-          <Linkify>
+          <Linkify properties={{target: '_blank'}}>
             <p>{props.description}</p>
           </Linkify>
 
         </div>
-        <img
-          src={props.imageUrl}
+        <div className='project-image-container'>
+          <img
+            src={props.imageUrl}
           />
+        </div>
+
       </div>
     </div>
   )
