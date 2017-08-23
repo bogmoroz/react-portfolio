@@ -5,6 +5,7 @@ var Route = ReactRouter.Route;
 var Switch = ReactRouter.Switch;
 var Nav = require('./Nav');
 var Home = require('./Home');
+var Software = require('./Software');
 var Tabs = require('./Tabs');
 var Contacts = require('./Contacts');
 
@@ -16,8 +17,8 @@ class App extends React.Component {
           <Nav />
           <Switch>
             <Route exact path='/' component={Home} />
-            <Route exact path='/software' component={Tabs} />
-            <Route exact path='/media' component={Home} />
+            <Route exact path='/software' component={Software} />
+            <Route exact path='/media' component={Contacts} />
             <Route exact path='/contacts' component={Contacts} />
             <Route render={function() {
                 return <p>Page Not Found</p>

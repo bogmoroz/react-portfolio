@@ -61,6 +61,10 @@ a {
   letter-spacing: 1px;
 }
 
+a:hover {
+  color: #f79c13;
+}
+
 .container {
   max-width: 1200px;
   margin: 0 auto;
@@ -109,9 +113,35 @@ a {
   display: flex;
 }
 
+.home-container img {
+  align-self: center;
+}
+
 .home-about-me {
   text-align: justify;
   margin-left: 50px;
+  line-height: 30px;
+}
+
+.project-item {
+  display: flex;
+  flex-direction: row;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  justify-content: space-between;  
+}
+
+.project-item .item-description {
+  width: 600px;
+  text-align: justify;
+  line-height: 30px;
+}
+
+.project-item img {
+  height: 300px;
+  width: auto;
+  margin-left: 60px;
+  align-self: center;
 }
 
 .contacts-container {
