@@ -102,5 +102,24 @@ a {
 }
 
 .nav li {
-  margin-right: 15px;
+  /*margin-right: 15px;*/
+}
+
+.home-container {
+  display: flex;
+}
+
+.home-about-me {
+  text-align: justify;
+  margin-left: 50px;
+}
+
+.contacts-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contacts-container a:hover {
+  color: #f79c13;
 }

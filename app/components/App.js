@@ -5,6 +5,7 @@ var Route = ReactRouter.Route;
 var Nav = require('./Nav');
 var Home = require('./Home');
 var Tabs = require('./Tabs');
+var Contacts = require('./Contacts');
 
 class App extends React.Component {
   render() {
@@ -15,7 +16,7 @@ class App extends React.Component {
           <Route exact path='/' component={Home} />
           <Route exact path='/software' component={Tabs} />
           <Route exact path='/media' component={Home} />
-          <Route exact path='/contacts' component={Home} />
+          <Route exact path='/contacts' component={Contacts} />
         </div>
       </Router>
 
