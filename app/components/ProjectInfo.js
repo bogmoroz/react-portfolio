@@ -1,8 +1,11 @@
 var React = require('react');
 var PropTypes = require('prop-types');
+var HtmlToReactParser = require('html-to-react').Parser;
 import Linkify from 'react-linkify';
 
 function ProjectInfo(props) {
+  var htmlToReactParser = new HtmlToReactParser();
+  var parsedDescription = htmlToReactParser.parse(props.description);
   if (props.imageUrl) {
     return(
       <div>
@@ -10,7 +13,7 @@ function ProjectInfo(props) {
           <div className='item-description'>
             <h1>{props.title}</h1>
             <Linkify properties={{target: '_blank'}}>
-              <p>{props.description}</p>
+              {parsedDescription}
             </Linkify>
           </div>
           <div className='illustration-container'>
@@ -28,7 +31,7 @@ function ProjectInfo(props) {
           <div className='item-description'>
             <h1>{props.title}</h1>
             <Linkify properties={{target: '_blank'}}>
-              <p>{props.description}</p>
+              {parsedDescription}
             </Linkify>
           </div>
           <div className='illustration-container'>
@@ -47,7 +50,7 @@ function ProjectInfo(props) {
           <div className='item-description'>
             <h1>{props.title}</h1>
             <Linkify properties={{target: '_blank'}}>
-              <p>{props.description}</p>
+              {parsedDescription}
             </Linkify>
           </div>
         </div>
