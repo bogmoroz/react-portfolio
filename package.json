@@ -6,7 +6,10 @@
   "scripts": {
     "create": "webpack",
     "start": "webpack-dev-server --open",
-    "build": "NODE_ENV='production' webpack -p"
+    "build": "SET NODE_ENV='production' & webpack -p",
+    "deploy": "npm run build && firebase deploy",
+    "firebase-init": "firebase login && firebase init",
+    "firebase-logout": "firebase logout"
   },
   "babel": {
     "presets": [
@@ -32,6 +35,7 @@
     "babel-preset-stage-0": "^6.24.1",
     "babel-preset-stage-2": "^6.24.1",
     "css-loader": "^0.28.5",
+    "firebase-tools": "^3.9.2",
     "html-webpack-plugin": "^2.30.1",
     "style-loader": "^0.18.2",
     "url-loader": "^0.5.9",
