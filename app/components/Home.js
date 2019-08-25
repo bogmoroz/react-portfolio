@@ -1,6 +1,8 @@
 import React from 'react';
+import { Parser } from 'html-to-react';
 
 export default function Home() {
+  var htmlToReactParser = new Parser();
   return (
     <div className='home-container'>
       <img
@@ -9,23 +11,22 @@ export default function Home() {
         alt={'Github avatar'}
       />
       <p className='home-about-me'>
-        Hello! My name is Bogdan Moroz.
-        {/*  My name is Bogdan Moroz, I am 20 years old and I come from Saint
-        Petersburg, Russia. I am a student of Information Technology at
-        South-Eastern Finland University of Applied Sciences in Mikkeli,
-        Finland. There, the primary focus of my studies is network engineering
-        and server environments. I have spent the last year in Amsterdam, doing
-        an exchange semester on mobile development at Amsterdam University of
-        Applied Sciences followed by a software engineering internship at
-        MediaLAB Amsterdam. Apart from networking and software, I have also done
-        a significant amount of work in media productions, graphical publishing
-        and game design.
+        Hello! My name is Bogdan Moroz. I am a software developer based in
+        Mikkeli, Finland. Having recently graduated from the South-Eastern
+        Finland University of Applied Sciences, I am currently working at
+        Observis on situational awareness software. My technology stack includes
+        but is not limited to React, Redux, TypeScript and Java.
         <br />
         <br />
-        As the work presented in this portfolio hopefully reflects, I am
-        interested in many areas of technology and innovation. I am looking for
-        a place where I can combine my technical skills and creativity to work
-        on relevant projects that I can be proud of. */}
+        {htmlToReactParser.parse(
+          "For my bachelor's thesis I developed <a href='https://www.theseus.fi/handle/10024/184586' target='_blank'> a testing strategy for the frontend using Jest and Enzyme</a>, gaining knowledge of test automation and test-driven development in the process. I am well familiar with the scrum workflow, and have configured CI/CD pipelines using Jenkins and GitLab CI."
+        )}
+        <br />
+        <br />
+        As the work presented in this portfolio hopefully reflects, I have
+        valuable experience in multiple areas of technology and innovation. I am
+        looking for a place where I can combine my technical skills and
+        creativity to work on relevant projects that I can be proud of.
       </p>
     </div>
   );
