@@ -15,7 +15,8 @@ export default function Software() {
         title='Suur-Savon Energiasäätiö application system (2019)'
         description="An online application system to apply for financial support
         from the Savonia Energy Foundation for the purchase and installation of solar panels. Developed as part of my work
-        for <a href='https://www.observis.fi/' target='_blank'>Observis</a>. Over 240 people have already signed up through
+        for <a href='https://www.observis.fi/' target='_blank'>Observis</a>. Generates PDFs from submitted applications and 
+        allows to digitally sign them using the Visma Sign API. Over 240 people have already signed up through
         the system, with the maximum limit of 260 soon reached. Available at https://hakemus.energiasaatio.fi/. React, Redux, Firebase."
         imageUrl='https://res.cloudinary.com/bogmoroz/image/upload/v1566763308/hakemus3_n2y3wf.png'
       />
