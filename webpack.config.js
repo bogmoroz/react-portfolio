@@ -1,8 +1,8 @@
-var path = require('path');
-var HtmlWebpackPlugin = require('html-webpack-plugin');
-var webpack = require('webpack');
+const path = require('path');
+const HtmlWebpackPlugin = require('html-webpack-plugin');
+const CopyPlugin = require('copy-webpack-plugin');
 
-var config = {
+module.exports = {
   entry: './app/index.js',
   output: {
     path: path.resolve(__dirname, 'dist'),
@@ -11,28 +11,20 @@ var config = {
   },
   module: {
     rules: [
-      {test: /\.(js)$/, use: 'babel-loader'},
-      {test: /\.css$/, use: [ 'style-loader', 'css-loader' ]},
-      { test: /\.(png|woff|woff2|eot|ttf|svg)$/, loader: 'url-loader?limit=100000' }
+      { test: /\.(js)$/, use: 'babel-loader' },
+      { test: /\.css$/, use: ['style-loader', 'css-loader'] },
+      {
+        test: /\.(png|woff|woff2|eot|ttf|svg)$/,
+        loader: 'url-loader?limit=100000'
+      }
     ]
   },
   devServer: {
     historyApiFallback: true
   },
-  plugins: [new HtmlWebpackPlugin({
-      template: 'app/index.html'
-    })]
+  plugins: [
+    new HtmlWebpackPlugin({ template: 'app/index.html' }),
+    new CopyPlugin([{ from: '_redirects' }])
+  ],
+  mode: process.env.NODE_ENV === 'production' ? 'production' : 'development'
 };
-
-if (process.env.NODE_ENV === 'production') {
-  config.plugins.push(
-    new webpack.DefinePlugin({
-      'process.env': {
-        'NODE_ENV': JSON.stringify(process.env.NODE_ENV)
-      }
-    }),
-    new webpack.optimize.UglifyJsPlugin()
-  )
-}
-
-module.exports = config;

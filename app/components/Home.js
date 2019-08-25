@@ -1,32 +1,32 @@
-var React = require('react');
+import React from 'react';
 
-function Home() {
-  return(
+export default function Home() {
+  return (
     <div className='home-container'>
       <img
-        className = 'avatar'
-        src = 'https://github.com/bogmoroz.png?size=300'
-        alt = {'Github avatar'}
+        className='avatar'
+        src='https://github.com/bogmoroz.png?size=300'
+        alt={'Github avatar'}
       />
-    <p className='home-about-me'>
-      My name is Bogdan Moroz, I am 20 years old and I come from Saint Petersburg,
-      Russia. I am a student of Information Technology at South-Eastern Finland
-      University of Applied Sciences in Mikkeli, Finland. There, the primary
-      focus of my studies is network engineering and server environments. I have spent the last year
-      in Amsterdam, doing an exchange semester on mobile development at Amsterdam
-      University of Applied Sciences followed by a software engineering internship
-      at MediaLAB Amsterdam. Apart from networking and software, I have also done a
-      significant amount of work in media productions, graphical publishing and
-      game design.
-      <br/><br/>
-      As the work presented in this portfolio hopefully reflects,
-      I am interested in many areas of technology and innovation.
-      I am looking for a place where I can combine my technical skills
-      and creativity to work on relevant projects that I can be proud of.
-
+      <p className='home-about-me'>
+        Hello! My name is Bogdan Moroz.
+        {/*  My name is Bogdan Moroz, I am 20 years old and I come from Saint
+        Petersburg, Russia. I am a student of Information Technology at
+        South-Eastern Finland University of Applied Sciences in Mikkeli,
+        Finland. There, the primary focus of my studies is network engineering
+        and server environments. I have spent the last year in Amsterdam, doing
+        an exchange semester on mobile development at Amsterdam University of
+        Applied Sciences followed by a software engineering internship at
+        MediaLAB Amsterdam. Apart from networking and software, I have also done
+        a significant amount of work in media productions, graphical publishing
+        and game design.
+        <br />
+        <br />
+        As the work presented in this portfolio hopefully reflects, I am
+        interested in many areas of technology and innovation. I am looking for
+        a place where I can combine my technical skills and creativity to work
+        on relevant projects that I can be proud of. */}
       </p>
     </div>
-  )
+  );
 }
-
-module.exports = Home;

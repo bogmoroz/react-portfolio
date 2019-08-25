@@ -4,42 +4,47 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "create": "webpack",
-    "start": "webpack-dev-server --open",
-    "build": "SET NODE_ENV='production' & webpack -p",
-    "deploy": "npm run build && firebase deploy",
-    "firebase-init": "firebase login && firebase init",
-    "firebase-logout": "firebase logout"
+    "build": "cross-env NODE_ENV=production webpack",
+    "start": "webpack-dev-server"
   },
   "babel": {
     "presets": [
-      "env",
-      "react"
+      "@babel/preset-env",
+      "@babel/preset-react"
+    ],
+    "plugins": [
+      "@babel/plugin-proposal-class-properties",
+      "syntax-dynamic-import"
     ]
   },
-  "author": "",
+  "keywords": [],
+  "author": "Bogdan Moroz",
   "license": "ISC",
   "dependencies": {
+    "babel-plugin-syntax-dynamic-import": "^6.18.0",
+    "cross-env": "^5.2.0",
+    "prop-types": "^15.7.2",
+    "query-string": "^6.8.2",
     "html-to-react": "^1.2.11",
-    "react": "^15.6.1",
-    "react-dom": "^15.6.1",
     "react-linkify": "^0.2.1",
-    "react-router-dom": "^4.1.2"
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "react-icons": "^3.7.0",
+    "react-router-dom": "^5.0.1"
   },
   "devDependencies": {
-    "babel-core": "^6.26.0",
-    "babel-loader": "^7.1.2",
-    "babel-preset-env": "^1.6.0",
-    "babel-preset-es2015": "^6.24.1",
-    "babel-preset-react": "^6.24.1",
-    "babel-preset-stage-0": "^6.24.1",
-    "babel-preset-stage-2": "^6.24.1",
-    "css-loader": "^0.28.5",
-    "firebase-tools": "^3.9.2",
-    "html-webpack-plugin": "^2.30.1",
-    "style-loader": "^0.18.2",
     "url-loader": "^0.5.9",
-    "webpack": "^3.5.5",
-    "webpack-dev-server": "^2.7.1"
+    "@babel/core": "^7.5.5",
+    "@babel/plugin-proposal-class-properties": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.6",
+    "copy-webpack-plugin": "^5.0.4",
+    "css-loader": "^3.2.0",
+    "html-webpack-plugin": "^3.2.0",
+    "style-loader": "^1.0.0",
+    "webpack": "^4.39.2",
+    "webpack-cli": "^3.3.6",
+    "webpack-dev-server": "^3.8.0"
   }
 }

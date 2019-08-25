@@ -1,8 +1,7 @@
-var React = require('react');
+import React from 'react';
 
-class Tabs extends React.Component {
-
-  constructor (props) {
+export default class Tabs extends React.Component {
+  constructor(props) {
     super(props);
     this.state = {
       selectedTab: 'Home'
@@ -15,7 +14,7 @@ class Tabs extends React.Component {
     this.setState(function() {
       return {
         selectedTab: tab
-      }
+      };
     });
   }
 
@@ -23,19 +22,20 @@ class Tabs extends React.Component {
     var tabNames = ['Home', 'Software', 'Media', 'Contacts'];
     return (
       <ul className='tab-menu'>
-        {tabNames.map(function (tab) {
-          return(
+        {tabNames.map(function(tab) {
+          return (
             <li
-              style={tab === this.state.selectedTab ? { color: '#f79c13' } : null}
+              style={
+                tab === this.state.selectedTab ? { color: '#f79c13' } : null
+              }
               onClick={this.changeTab.bind(null, tab)}
-              key={tab}>
+              key={tab}
+            >
               {tab}
             </li>
-          )
+          );
         }, this)}
       </ul>
-    )
+    );
   }
 }
-
-module.exports = Tabs;

@@ -1,8 +1,8 @@
-var React = require('react');
-var ProjectInfo = require('./ProjectInfo');
+import React from 'react';
+import ProjectInfo from './ProjectInfo';
 
-function Media() {
-  return(
+export default function Media() {
+  return (
     <div>
       <ProjectInfo
         title='Forget Me Not'
@@ -13,8 +13,7 @@ function Media() {
         so on. The production was carried out under guidance of Dr. Richard Raskin, an
         established short film director and theorist.</p>'
         videoUrl='https://www.youtube.com/embed/Qx4uN7dyJB4'
-        >
-      </ProjectInfo>
+      ></ProjectInfo>
 
       <ProjectInfo
         title='The Last Sleepover'
@@ -23,8 +22,7 @@ function Media() {
         first production where I participated in every aspect of the process. I
         wrote, storyboarded, did camera work and some acting, as well as edited the film.</p>'
         videoUrl='https://www.youtube.com/embed/-COuwI5-VBM'
-        >
-      </ProjectInfo>
+      ></ProjectInfo>
 
       <ProjectInfo
         title='"Jukurit" Media Productions'
@@ -35,8 +33,7 @@ function Media() {
         <a href='https://www.youtube.com/watch?v=q-k5nuuIQ6I' target='_blank'>Jukurit's YouTube channel</a>
         .</p>"
         imageUrl='https://dvqlxo2m2q99q.cloudfront.net/000_clients/617667/file/617667xtLLGTS9.png'
-        >
-      </ProjectInfo>
+      ></ProjectInfo>
       <ProjectInfo
         title='A magazine about Wes Craven'
         description='<p>As part of a graphical publishing course in 2015, I made a
@@ -46,8 +43,7 @@ function Media() {
         <a href="https://drive.google.com/file/d/0B-4FPtZdd1dFOGxBT1RpSnRQTWc/view?usp=sharing"
         target="_blank">here</a>.</p>'
         imageUrl='https://dvqlxo2m2q99q.cloudfront.net/000_clients/617667/file/6176671cqKDi4Z.png'
-        >
-      </ProjectInfo>
+      ></ProjectInfo>
       <ProjectInfo
         title='Minun Mikkelini'
         description='<p>In spring 2016 I made a magazine about my favorite places
@@ -55,10 +51,7 @@ function Media() {
         be found <a href="https://drive.google.com/file/d/0B-4FPtZdd1dFZ2Y2SU1FUWdsejA/view?usp=sharing"
         target="_blank">here</a>.</p>'
         imageUrl='https://dvqlxo2m2q99q.cloudfront.net/000_clients/617667/file/6176672RUGHz8s.png'
-        >
-      </ProjectInfo>
+      ></ProjectInfo>
     </div>
-  )
+  );
 }
-
-module.exports = Media;
