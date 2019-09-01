@@ -51,11 +51,10 @@
       format('svg'); /* Legacy iOS */
 }
 
-body {
-  /*background: #C6E0FF;*/
-  font-family: 'Roboto';
+/* body {
+    font-family: 'Roboto';
   color: #315659;
-}
+} */
 
 ul {
   padding: 0;
@@ -63,17 +62,6 @@ ul {
 
 li {
   list-style-type: none;
-}
-
-a {
-  text-decoration: none;
-  color: #315659;
-  font-weight: bold;
-  letter-spacing: 1px;
-}
-
-a:hover {
-  color: #f79c13;
 }
 
 .container {
@@ -112,21 +100,17 @@ a:hover {
   display: flex;
 }
 
-.active {
-  color: #f79c13;
-}
-
 .nav li {
   margin-right: 15px;
 }
 
-.home-container {
+/* .home-container {
   display: flex;
 }
 
 .home-container img {
   align-self: center;
-}
+} */
 
 .home-about-me {
   text-align: justify;

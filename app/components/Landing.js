@@ -8,11 +8,13 @@ export default class Landing extends React.Component {
   render() {
     return (
       <Router>
-        <div className='menu-btn'>
-          <div className='btn-line'></div>
-          <div className='btn-line'></div>
-          <div className='btn-line'></div>
-        </div>
+        <header>
+          <div className='menu-btn'>
+            <div className='btn-line'></div>
+            <div className='btn-line'></div>
+            <div className='btn-line'></div>
+          </div>
+        </header>
 
         <Nav />
 

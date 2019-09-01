@@ -5,7 +5,7 @@ import { FaGithub, FaTwitter, FaLinkedin } from 'react-icons/fa';
 export default function Home() {
   var htmlToReactParser = new Parser();
   return (
-    <>
+    <div className='home-container'>
       <h1 className='lg-heading'>
         Bogdan <span className='text-secondary'>Moroz</span>
       </h1>
@@ -26,6 +26,6 @@ export default function Home() {
           <FaTwitter size={48} />
         </a>
       </div>
-    </>
+    </div>
   );
 }
