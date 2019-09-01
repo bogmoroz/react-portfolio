@@ -6,10 +6,10 @@ export default function Home() {
   var htmlToReactParser = new Parser();
   return (
     <>
-      <h1 class='lg-heading'>
-        Bogdan <span class='text-secondary'>Moroz</span>
+      <h1 className='lg-heading'>
+        Bogdan <span className='text-secondary'>Moroz</span>
       </h1>
-      <h2 class='sm-heading'>
+      <h2 className='sm-heading'>
         Frontend Developer, Programmer, Designer & Creative
       </h2>
       <div className='icons'>
