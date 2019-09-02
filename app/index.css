@@ -64,7 +64,7 @@ li {
   list-style-type: none;
 } */
 
-.container {
+/* .container {
   max-width: 1200px;
   margin: 0 auto;
 }
@@ -93,7 +93,7 @@ li {
   font-weight: bold;
   text-transform: uppercase;
   letter-spacing: 2px;
-}
+} */
 
 /* .nav {
   text-transform: uppercase;
@@ -112,7 +112,7 @@ li {
   align-self: center;
 } */
 
-.home-about-me {
+/* .home-about-me {
   text-align: justify;
   margin-left: 50px;
   line-height: 30px;
@@ -145,7 +145,7 @@ li {
   display: flex;
   flex-direction: column;
   align-items: center;
-}
+} */
 
 /* .contacts-container a:hover {
   color: #f79c13;

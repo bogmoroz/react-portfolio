@@ -8,54 +8,57 @@ export default function ProjectInfo(props) {
   var parsedDescription = htmlToReactParser.parse(props.description);
   if (props.imageUrl) {
     return (
-      <div>
-        <div className='project-item'>
-          <div className='item-description'>
-            <h1>{props.title}</h1>
-            <Linkify properties={{ target: '_blank' }}>
-              {parsedDescription}
-            </Linkify>
-          </div>
-          <div className='illustration-container'>
-            <img src={props.imageUrl} />
-          </div>
+      <div className='project-item'>
+        <div className='item-description'>
+          <h1>{props.title}</h1>
+          <Linkify
+            className='project-description'
+            properties={{ target: '_blank' }}
+          >
+            {parsedDescription}
+          </Linkify>
+        </div>
+        <div className='illustration-container'>
+          <img className='project-img' src={props.imageUrl} />
         </div>
       </div>
     );
   } else if (props.videoUrl) {
     return (
-      <div>
-        <div className='project-item'>
-          <div className='item-description'>
-            <h1>{props.title}</h1>
-            <Linkify properties={{ target: '_blank' }}>
-              {parsedDescription}
-            </Linkify>
-          </div>
-          <div className='illustration-container'>
-            <iframe
-              width='560'
-              height='315'
-              src={props.videoUrl}
-              frameBorder='0'
-              allowFullScreen={true}
-              webkitallowfullscreen='true'
-              mozallowfullscreen='true'
-            ></iframe>
-          </div>
+      <div className='project-item'>
+        <div className='item-description'>
+          <h1>{props.title}</h1>
+          <Linkify
+            className='project-description'
+            properties={{ target: '_blank' }}
+          >
+            {parsedDescription}
+          </Linkify>
+        </div>
+        <div className='illustration-container'>
+          <iframe
+            width='560'
+            height='315'
+            src={props.videoUrl}
+            frameBorder='0'
+            allowFullScreen={true}
+            webkitallowfullscreen='true'
+            mozallowfullscreen='true'
+          ></iframe>
         </div>
       </div>
     );
   } else {
     return (
-      <div>
-        <div className='project-item'>
-          <div className='item-description'>
-            <h1>{props.title}</h1>
-            <Linkify properties={{ target: '_blank' }}>
-              {parsedDescription}
-            </Linkify>
-          </div>
+      <div className='project-item'>
+        <div className='item-description'>
+          <h1>{props.title}</h1>
+          <Linkify
+            className='project-description'
+            properties={{ target: '_blank' }}
+          >
+            {parsedDescription}
+          </Linkify>
         </div>
       </div>
     );

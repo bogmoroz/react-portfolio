@@ -97,6 +97,7 @@ header {
 .bio {
   grid-area: bio;
   font-size: 1.15rem;
+  text-align: justify;
 }
 
 .job-1 {
@@ -123,6 +124,36 @@ header {
   background: darken($primary-color, 10);
   color: $primary-text-color;
   height: 60px;
+}
+
+.project-item {
+  display: flex;
+  flex-direction: row;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  text-align: justify;
+  justify-content: space-between;
+
+  img {
+    max-width: 420px;
+    height: auto;
+  }
+}
+
+.item-description {
+  // padding: 0.5rem;
+  max-width: 600px;
+  text-align: justify;
+  line-height: 30px;
+  margin-bottom: 1rem;
+
+  h1 {
+    margin-bottom: 1rem;
+  }
+
+  a {
+    color: $secondary-text-color;
+  }
 }
 
 @import 'mobile';

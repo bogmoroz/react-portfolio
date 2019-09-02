@@ -56,7 +56,7 @@ export default function About() {
           </div>
         </div>
       </div>
-      <footer className='about-footer'>Copyright &copy; 2018</footer>
+      <footer className='about-footer'>Bogdan Moroz &copy; 2019</footer>
     </>
   );
 }
