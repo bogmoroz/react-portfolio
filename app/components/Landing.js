@@ -36,11 +36,7 @@ export default class Landing extends React.Component {
           <Route exact path='/software' component={Software} />
           <Route exact path='/media' component={Media} />
           <Route exact path='/contacts' component={Contacts} />
-          <Route
-            render={function() {
-              return <p>Page Not Found</p>;
-            }}
-          />
+          <Route render={() => <p>Page Not Found</p>} />
         </Switch>
       </Router>
     );

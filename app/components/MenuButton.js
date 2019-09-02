@@ -1,7 +1,13 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import { withRouter } from 'react-router-dom';
 
-export default class MenuButton extends React.Component {
+class MenuButton extends React.Component {
+  componentDidUpdate(prevProps) {
+    this.props.location.pathname !== prevProps.location.pathname &&
+      this.props.handleClick();
+  }
+
   render() {
     const { isMenuVisible, handleClick } = this.props;
     return (
@@ -21,3 +27,5 @@ MenuButton.propTypes = {
   handleClick: PropTypes.func.isRequired,
   isMenuVisible: PropTypes.bool.isRequired
 };
+
+export default withRouter(MenuButton);
