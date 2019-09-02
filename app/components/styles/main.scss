@@ -76,6 +76,15 @@ header {
   &.home h1 {
     margin-top: 20vh;
   }
+
+  &.about,
+  &.software,
+  &.media,
+  &.contacts {
+    a {
+      color: $secondary-text-color;
+    }
+  }
 }
 
 .about-info {
@@ -129,10 +138,13 @@ header {
 .project-item {
   display: flex;
   flex-direction: row;
-  margin-top: 50px;
-  margin-bottom: 50px;
+  // margin-top: 50px;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  //margin-bottom: 2rem;
   text-align: justify;
-  justify-content: space-between;
+  justify-content: space-around;
+  border-bottom: $secondary-text-color 5px solid;
 
   img {
     max-width: 420px;
@@ -146,13 +158,13 @@ header {
   text-align: justify;
   line-height: 30px;
   margin-bottom: 1rem;
+  margin-right: 1rem;
+  font-size: 1.15rem;
 
   h1 {
     margin-bottom: 1rem;
-  }
-
-  a {
-    color: $secondary-text-color;
+    text-align: left;
+    line-height: 50px;
   }
 }
 

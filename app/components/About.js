@@ -5,7 +5,7 @@ export default function About() {
   var htmlToReactParser = new Parser();
   return (
     <>
-      <div className='section-container'>
+      <div className='section-container about'>
         <h1 className='lg-heading'>
           About <span className='text-secondary'>me</span>
         </h1>
@@ -38,21 +38,41 @@ export default function About() {
           </div>
 
           <div className='job job-1'>
-            <h3>123 Webshop</h3>
-            <h6>Position</h6>
-            <p>lorem ipsum</p>
+            <h3>Observis Oy</h3>
+            <h4>Software Developer</h4>
+            <p>January 2019 - Present</p>
+            <p>
+              Currently working on the next major version of the ObSAS client
+              (see software projects). Set up a GitLab CI pipeline for the
+              client. Implemented a solar panel grant application system in a
+              small team (see software projects). Responsibilities include code
+              review and providing guidance to new trainees and developers.
+            </p>
           </div>
 
           <div className='job job-2'>
-            <h3>123 Webshop</h3>
-            <h6>Position</h6>
-            <p>lorem ipsum</p>
+            <h3>Observis Oy</h3>
+            <h4>SW Dev Intern, Thesis Worker</h4>
+            <p>September 2017 - December 2018</p>
+            <p>
+              Multiple teams and projects including ObSAS (see projects) and a
+              dashboard web app for managing music festival programmes.
+              Established and documented a testing strategy for React-Redux
+              apps.
+            </p>
           </div>
 
           <div className='job job-3'>
-            <h3>123 Webshop</h3>
-            <h6>Position</h6>
-            <p>lorem ipsum</p>
+            <h3>MediaLAB Amsterdam</h3>
+            <h4>Software Developer Intern</h4>
+            <p>Winter - Summer 2017</p>
+            <p>
+              As the programmer in a multidisciplinary team, I worked for
+              MediaLAB and European Holocaust Research Infrastructure on ways of
+              engaging young adults with studying history of the Holocaust.
+              After creating a number of prototypes, I built the website of the
+              Resonance project (see software projects).
+            </p>
           </div>
         </div>
       </div>

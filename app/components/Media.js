@@ -57,6 +57,7 @@ export default function Media() {
           imageUrl='https://dvqlxo2m2q99q.cloudfront.net/000_clients/617667/file/6176672RUGHz8s.png'
         ></ProjectInfo>
       </div>
+      <footer className='about-footer'>Bogdan Moroz &copy; 2019</footer>
     </>
   );
 }

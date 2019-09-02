@@ -1,5 +1,11 @@
 // XL screens
 @include mediaXl {
+  .project-item {
+    img {
+      max-width: 600px;
+      height: auto;
+    }
+  }
 }
 
 // Large screens
@@ -8,6 +14,10 @@
     align-items: center;
     text-align: center;
     flex-direction: column;
+    img {
+      max-width: 600px;
+      height: auto;
+    }
   }
 
   .section-container {
