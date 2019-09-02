@@ -3,6 +3,7 @@ import style from './styles/main.scss';
 import Nav from './Nav';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Home from './Home';
+import About from './About';
 import MenuButton from './MenuButton';
 
 export default class Landing extends React.Component {
@@ -26,8 +27,15 @@ export default class Landing extends React.Component {
 
           <Nav isVisible={isMenuVisible} />
         </header>
-
-        <Route exact path='/' component={Home} />
+        <Switch>
+          <Route exact path='/' component={Home} />
+          <Route exact path='/about' component={About} />
+          <Route
+            render={function() {
+              return <p>Page Not Found</p>;
+            }}
+          />
+        </Switch>
       </Router>
     );
   }

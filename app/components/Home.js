@@ -1,11 +1,9 @@
 import React from 'react';
-import { Parser } from 'html-to-react';
 import { FaGithub, FaTwitter, FaLinkedin } from 'react-icons/fa';
 
 export default function Home() {
-  var htmlToReactParser = new Parser();
   return (
-    <div className='home-container'>
+    <div className='section-container home'>
       <h1 className='lg-heading'>
         Bogdan <span className='text-secondary'>Moroz</span>
       </h1>

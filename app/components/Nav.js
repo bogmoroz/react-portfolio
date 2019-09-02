@@ -18,6 +18,16 @@ export default class Nav extends React.Component {
           </li>
           <li className={'nav-item ' + (isVisible ? 'show' : '')}>
             <NavLink
+              exact
+              className='nav-link'
+              activeClassName='active'
+              to='/about'
+            >
+              About
+            </NavLink>
+          </li>
+          <li className={'nav-item ' + (isVisible ? 'show' : '')}>
+            <NavLink
               className='nav-link'
               activeClassName='active'
               to='/software'

@@ -8,7 +8,7 @@
 
 // Medium screens (small laptops/tablets)
 @include mediaMd {
-  .home-container {
+  .section-container {
     align-items: center;
     text-align: center;
 
@@ -43,6 +43,16 @@
       width: 150px;
       height: 150px;
     }
+  }
+
+  .about-info {
+    grid-template-areas:
+      'bioimage'
+      'bio'
+      'job1'
+      'job2'
+      'job3';
+    grid-template-columns: 1fr;
   }
 }
 
