@@ -4,26 +4,30 @@ import { NavLink } from 'react-router-dom';
 
 export default class Nav extends React.Component {
   render() {
+    const { isVisible } = this.props;
     return (
-      <nav className={'menu ' + (this.props.isVisible ? 'show' : '')}>
-        <ul className={'menu-nav ' + (this.props.isVisible ? 'show' : '')}>
-          <li className={'nav-item ' + (this.props.isVisible ? 'show' : '')}>
-            <NavLink exact activeClassName='active' to='/'>
+      <nav className={'menu ' + (isVisible ? 'show' : '')}>
+        <div className={'menu-branding ' + (isVisible ? 'show' : '')}>
+          <div className="portrait"></div>
+        </div>
+        <ul className={'menu-nav ' + (isVisible ? 'show' : '')}>
+          <li className={'nav-item ' + (isVisible ? 'show' : '')}>
+            <NavLink exact activeClassName="active" to="/">
               Home
             </NavLink>
           </li>
-          <li className={'nav-item ' + (this.props.isVisible ? 'show' : '')}>
-            <NavLink activeClassName='active' to='/software'>
+          <li className={'nav-item ' + (isVisible ? 'show' : '')}>
+            <NavLink activeClassName="active" to="/software">
               Software
             </NavLink>
           </li>
-          <li className={'nav-item ' + (this.props.isVisible ? 'show' : '')}>
-            <NavLink activeClassName='active' to='/media'>
+          <li className={'nav-item ' + (isVisible ? 'show' : '')}>
+            <NavLink activeClassName="active" to="/media">
               Media
             </NavLink>
           </li>
-          <li className={'nav-item ' + (this.props.isVisible ? 'show' : '')}>
-            <NavLink activeClassName='active' to='/contacts'>
+          <li className={'nav-item ' + (isVisible ? 'show' : '')}>
+            <NavLink activeClassName="active" to="/contacts">
               Contacts
             </NavLink>
           </li>

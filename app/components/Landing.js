@@ -23,15 +23,11 @@ export default class Landing extends React.Component {
             handleClick={this.toggleMenu}
             isMenuVisible={isMenuVisible}
           />
+
+          <Nav isVisible={isMenuVisible} />
         </header>
 
-        <div className={'menu-branding ' + (isMenuVisible ? 'show' : '')}>
-          <div className='portrait'></div>
-        </div>
-
-        <Nav isVisible={isMenuVisible} />
-
-        <Route exact path='/' component={Home} />
+        <Route exact path="/" component={Home} />
       </Router>
     );
   }
