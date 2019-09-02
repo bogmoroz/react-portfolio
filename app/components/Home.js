@@ -9,9 +9,7 @@ export default function Home() {
       <h1 className='lg-heading'>
         Bogdan <span className='text-secondary'>Moroz</span>
       </h1>
-      <h2 className='sm-heading'>
-        Frontend Developer, Programmer, Designer & Creative
-      </h2>
+      <h2 className='sm-heading'>Software Developer</h2>
       <div className='icons'>
         <a href='https://github.com/bogmoroz' target='_blank'>
           <FaGithub size={48} />

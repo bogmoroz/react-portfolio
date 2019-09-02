@@ -56,13 +56,13 @@
   color: #315659;
 } */
 
-ul {
+/* ul {
   padding: 0;
 }
 
 li {
   list-style-type: none;
-}
+} */
 
 .container {
   max-width: 1200px;
@@ -95,14 +95,14 @@ li {
   letter-spacing: 2px;
 }
 
-.nav {
+/* .nav {
   text-transform: uppercase;
   display: flex;
-}
+} */
 
-.nav li {
+/* .nav li {
   margin-right: 15px;
-}
+} */
 
 /* .home-container {
   display: flex;

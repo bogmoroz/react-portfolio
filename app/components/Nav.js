@@ -8,26 +8,34 @@ export default class Nav extends React.Component {
     return (
       <nav className={'menu ' + (isVisible ? 'show' : '')}>
         <div className={'menu-branding ' + (isVisible ? 'show' : '')}>
-          <div className="portrait"></div>
+          <div className='portrait'></div>
         </div>
         <ul className={'menu-nav ' + (isVisible ? 'show' : '')}>
           <li className={'nav-item ' + (isVisible ? 'show' : '')}>
-            <NavLink exact activeClassName="active" to="/">
+            <NavLink exact className='nav-link' activeClassName='active' to='/'>
               Home
             </NavLink>
           </li>
           <li className={'nav-item ' + (isVisible ? 'show' : '')}>
-            <NavLink activeClassName="active" to="/software">
+            <NavLink
+              className='nav-link'
+              activeClassName='active'
+              to='/software'
+            >
               Software
             </NavLink>
           </li>
           <li className={'nav-item ' + (isVisible ? 'show' : '')}>
-            <NavLink activeClassName="active" to="/media">
+            <NavLink className='nav-link' activeClassName='active' to='/media'>
               Media
             </NavLink>
           </li>
           <li className={'nav-item ' + (isVisible ? 'show' : '')}>
-            <NavLink activeClassName="active" to="/contacts">
+            <NavLink
+              className='nav-link'
+              activeClassName='active'
+              to='/contacts'
+            >
               Contacts
             </NavLink>
           </li>

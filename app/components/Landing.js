@@ -27,13 +27,12 @@ export default class Landing extends React.Component {
           <Nav isVisible={isMenuVisible} />
         </header>
 
-        <Route exact path="/" component={Home} />
+        <Route exact path='/' component={Home} />
       </Router>
     );
   }
 
   toggleMenu = () => {
-    console.log('Toggle');
     this.setState(({ isMenuVisible }) => ({
       isMenuVisible: !isMenuVisible
     }));

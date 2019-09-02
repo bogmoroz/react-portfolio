@@ -82,7 +82,7 @@
       height: 250px;
       background: url('https://github.com/bogmoroz.png?size=250');
       border-radius: 50%;
-      border: solid 3px $secondary-color;
+      border: solid 3px $secondary-text-color;
     }
   }
 
@@ -92,6 +92,26 @@
 
     &.show {
       transform: translate3d(0, 0, 0);
+    }
+  }
+
+  .nav-link {
+    display: inline-block;
+    position: relative;
+    font-size: 30px;
+    text-transform: uppercase;
+    padding: 1rem 0;
+    font-weight: 300;
+    color: #fff;
+    text-decoration: none;
+    @include easeOut;
+
+    &:hover {
+      color: $secondary-text-color;
+    }
+
+    &.active {
+      color: $secondary-text-color;
     }
   }
 }
