@@ -76,5 +76,28 @@
     &.show {
       transform: translate3d(0, 0, 0);
     }
+
+    .portrait {
+      width: 250px;
+      height: 250px;
+      background: url('https://github.com/bogmoroz.png?size=250');
+      border-radius: 50%;
+      border: solid 3px $secondary-color;
+    }
+  }
+
+  .nav-item {
+    transform: translate3d(600px, 0, 0);
+    @include easeOut;
+
+    &.show {
+      transform: translate3d(0, 0, 0);
+    }
+  }
+}
+
+@for $x from 1 through 4 {
+  .nav-item:nth-child(#{$x}) {
+    transition-delay: $x * 0.1s;
   }
 }
