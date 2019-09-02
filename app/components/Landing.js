@@ -4,6 +4,9 @@ import Nav from './Nav';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Home from './Home';
 import About from './About';
+import Software from './Software';
+import Media from './Media';
+import Contacts from './Contacts';
 import MenuButton from './MenuButton';
 
 export default class Landing extends React.Component {
@@ -30,6 +33,9 @@ export default class Landing extends React.Component {
         <Switch>
           <Route exact path='/' component={Home} />
           <Route exact path='/about' component={About} />
+          <Route exact path='/software' component={Software} />
+          <Route exact path='/media' component={Media} />
+          <Route exact path='/contacts' component={Contacts} />
           <Route
             render={function() {
               return <p>Page Not Found</p>;
