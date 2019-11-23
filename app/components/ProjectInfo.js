@@ -6,35 +6,23 @@ import { Parser } from 'html-to-react';
 export default function ProjectInfo(props) {
   var htmlToReactParser = new Parser();
   var parsedDescription = htmlToReactParser.parse(props.description);
-  if (props.imageUrl) {
-    return (
-      <div className='project-item'>
-        <div className='item-description'>
-          <h1>{props.title}</h1>
-          <Linkify
-            className='project-description'
-            properties={{ target: '_blank' }}
-          >
-            {parsedDescription}
-          </Linkify>
-        </div>
+
+  return (
+    <div className='project-item'>
+      <div className='item-description'>
+        <h1>{props.title}</h1>
+        <Linkify
+          className='project-description'
+          properties={{ target: '_blank' }}
+        >
+          {parsedDescription}
+        </Linkify>
+      </div>
+      {props.imageUrl ? (
         <div className='illustration-container'>
           <img className='project-img' src={props.imageUrl} />
         </div>
-      </div>
-    );
-  } else if (props.videoUrl) {
-    return (
-      <div className='project-item'>
-        <div className='item-description'>
-          <h1>{props.title}</h1>
-          <Linkify
-            className='project-description'
-            properties={{ target: '_blank' }}
-          >
-            {parsedDescription}
-          </Linkify>
-        </div>
+      ) : props.videoUrl ? (
         <div className='illustration-container'>
           <iframe
             width='560'
@@ -46,23 +34,11 @@ export default function ProjectInfo(props) {
             mozallowfullscreen='true'
           ></iframe>
         </div>
-      </div>
-    );
-  } else {
-    return (
-      <div className='project-item'>
-        <div className='item-description'>
-          <h1>{props.title}</h1>
-          <Linkify
-            className='project-description'
-            properties={{ target: '_blank' }}
-          >
-            {parsedDescription}
-          </Linkify>
-        </div>
-      </div>
-    );
-  }
+      ) : (
+        <></>
+      )}
+    </div>
+  );
 }
 
 ProjectInfo.propTypes = {
