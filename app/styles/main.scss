@@ -192,4 +192,58 @@ header {
   }
 }
 
+.project-grid {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card-wrapper {
+  position: relative;
+  margin: 15px;
+  width: calc((100% / 3) - 30px);
+  height: 400px;
+  overflow: hidden;
+  border: 2px solid $primary-text-color;
+  display: flex;
+  justify-content: center;
+  transition: all 0.2s ease-in-out;
+}
+
+.card-wrapper:hover {
+  transform: scale(1.05);
+}
+
+.fade {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  z-index: 0;
+  background: -webkit-linear-gradient(
+    bottom,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(0, 0, 0, 0.65) 40%,
+    rgba(0, 0, 0, 0) 80%,
+    rgba(0, 0, 0, 0) 100%
+  );
+}
+
+.card-info {
+  position: absolute;
+  bottom: 5px;
+  left: 20px;
+}
+
+.card-title {
+  color: white;
+  z-index: 4;
+
+  overflow-wrap: normal;
+}
+
+.project-img {
+  align-self: start;
+  max-width: 100%;
+  height: auto;
+}
+
 @import 'mobile';

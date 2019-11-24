@@ -8,6 +8,17 @@ export default function ProjectInfo(props) {
   var parsedDescription = htmlToReactParser.parse(props.description);
 
   return (
+    <div className='card-wrapper'>
+      <div className='fade'></div>
+      <img className='project-img' src={props.imageUrl} />
+      <div className='card-info'>
+        <h2 className='card-title'>{props.title}</h2>
+        <h3 className='card-year'>{props.year}</h3>
+      </div>
+    </div>
+  );
+
+  /*   return (
     <div className='project-item'>
       <div className='item-description'>
         <h1>{props.title}</h1>
@@ -38,11 +49,12 @@ export default function ProjectInfo(props) {
         <></>
       )}
     </div>
-  );
+  ); */
 }
 
 ProjectInfo.propTypes = {
   title: PropTypes.string.isRequired,
+  year: PropTypes.string.isRequired,
   description: PropTypes.string.isRequired,
   imageUrl: PropTypes.string,
   videoUrl: PropTypes.string
