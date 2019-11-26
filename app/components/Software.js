@@ -20,7 +20,7 @@ export default function Software() {
         <h1 className='lg-heading'>
           Software <span className='text-secondary'>projects</span>
         </h1>
-        <div>
+        <>
           {softwareSorted.map(project => (
             <ProjectInfo
               key={project.id}
@@ -30,7 +30,7 @@ export default function Software() {
               imageUrl={project.imageUrl}
             />
           ))}
-        </div>
+        </>
       </div>
       <footer className='about-footer'>Bogdan Moroz &copy; 2019</footer>
     </>
