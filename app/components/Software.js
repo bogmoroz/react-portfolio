@@ -1,7 +1,8 @@
-import React, { useEffect, useRef } from 'react';
+import React from 'react';
 import ProjectInfo from './ProjectInfo';
 import software from '../data/software.json';
 import { useLocation } from 'react-router-dom';
+import { usePrevious } from '../utils';
 
 export default function Software() {
   const softwareSorted = software.sort((a, b) => (a.id < b.id ? 1 : -1));
@@ -34,13 +35,4 @@ export default function Software() {
       <footer className='about-footer'>Bogdan Moroz &copy; 2019</footer>
     </>
   );
-}
-
-function usePrevious(value) {
-  const ref = useRef();
-  useEffect(() => {
-    ref.current = value;
-  });
-
-  return ref.current;
 }
