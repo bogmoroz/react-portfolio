@@ -57,6 +57,6 @@ ProjectInfo.propTypes = {
   year: PropTypes.string.isRequired,
   description: PropTypes.string.isRequired,
   imageUrl: PropTypes.string,
-  videoUrl: PropTypes.string,
-  isSelected: PropTypes.boolean
+  videoUrl: PropTypes.string
+  // isSelected: PropTypes.boolean
 };
