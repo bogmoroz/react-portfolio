@@ -1,9 +1,17 @@
-import React from 'react';
+import React, { useEffect, useRef } from 'react';
 import ProjectInfo from './ProjectInfo';
 import software from '../data/software.json';
+import { useLocation } from 'react-router-dom';
 
 export default function Software() {
   const softwareSorted = software.sort((a, b) => (a.id < b.id ? 1 : -1));
+
+  const location = useLocation();
+  const prevLocation = usePrevious(location);
+
+  if (location !== prevLocation) {
+    window.scrollTo(0, 0);
+  }
 
   return (
     <>
@@ -26,4 +34,13 @@ export default function Software() {
       <footer className='about-footer'>Bogdan Moroz &copy; 2019</footer>
     </>
   );
+}
+
+function usePrevious(value) {
+  const ref = useRef();
+  useEffect(() => {
+    ref.current = value;
+  });
+
+  return ref.current;
 }
