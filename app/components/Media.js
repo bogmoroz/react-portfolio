@@ -47,7 +47,7 @@ export default function Media() {
         .</p>"
           imageUrl='https://dvqlxo2m2q99q.cloudfront.net/000_clients/617667/file/617667xtLLGTS9.png'
         ></ProjectInfo>
-        <ProjectInfo
+        {/*  <ProjectInfo
           title='A magazine about Wes Craven (2015)'
           description='<p>As part of a graphical publishing course in 2015, I made a
         magazine dedicated to one of the great horror movie directors, Wes Craven.
@@ -64,9 +64,9 @@ export default function Media() {
         be found <a href="https://drive.google.com/file/d/0B-4FPtZdd1dFZ2Y2SU1FUWdsejA/view?usp=sharing"
         target="_blank">here</a>.</p>'
           imageUrl='https://dvqlxo2m2q99q.cloudfront.net/000_clients/617667/file/6176672RUGHz8s.png'
-        ></ProjectInfo>
+        ></ProjectInfo> */}
       </div>
-      <footer className='about-footer'>Bogdan Moroz &copy; 2019</footer>
+      <footer className='about-footer'>Bogdan Moroz &copy; 2020</footer>
     </>
   );
 }

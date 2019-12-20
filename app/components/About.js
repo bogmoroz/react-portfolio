@@ -91,7 +91,7 @@ export default function About() {
           </div>
         </div>
       </div>
-      <footer className='about-footer'>Bogdan Moroz &copy; 2019</footer>
+      <footer className='about-footer'>Bogdan Moroz &copy; 2020</footer>
     </>
   );
 }

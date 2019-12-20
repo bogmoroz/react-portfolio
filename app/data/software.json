@@ -1,12 +1,5 @@
 [
   {
-    "id": 0,
-    "title": "Tardigrade!",
-    "year": "2015",
-    "description": "<p>During my studies at South-Eastern Finland University of Applied Sciences I have taken part in development of a Unity-based time-killer game called 'Tardigrade!'. The game is about a little animal called Tardigrade that gets stranded in space and needs to return back to Earth. It does that by jumping from one rotating moving asteroid to another, avoiding obstacles on the way. Entire game is controlled with one button that is used to jump and to control the force of a jump. The game is currently available at http://www.playtardi.com/.",
-    "imageUrl": "https://dvqlxo2m2q99q.cloudfront.net/000_clients/617667/file/617667HCkz8oNc.jpg"
-  },
-  {
     "id": 1,
     "title": "Industrial Hackathon at Mikkelin Betoni",
     "year": "2015",

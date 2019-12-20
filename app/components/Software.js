@@ -32,7 +32,7 @@ export default function Software() {
           ))}
         </>
       </div>
-      <footer className='about-footer'>Bogdan Moroz &copy; 2019</footer>
+      <footer className='about-footer'>Bogdan Moroz &copy; 2020</footer>
     </>
   );
 }
