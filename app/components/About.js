@@ -1,8 +1,18 @@
 import React from 'react';
 import { Parser } from 'html-to-react';
+import { useLocation } from 'react-router-dom';
+import { usePrevious } from '../utils';
 
 export default function About() {
   var htmlToReactParser = new Parser();
+
+  const location = useLocation();
+  const prevLocation = usePrevious(location);
+
+  if (location !== prevLocation) {
+    window.scrollTo(0, 0);
+  }
+
   return (
     <>
       <div className='section-container about'>

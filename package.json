@@ -27,11 +27,11 @@
     "mime": ">=1.4.1",
     "prop-types": "^15.7.2",
     "query-string": "^6.8.2",
-    "react": "^16.9.0",
-    "react-dom": "^16.9.0",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
     "react-icons": "^3.7.0",
     "react-linkify": "^0.2.1",
-    "react-router-dom": "^5.0.1",
+    "react-router-dom": "^5.1.2",
     "underscore.string": ">=3.3.5"
   },
   "devDependencies": {
