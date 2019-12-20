@@ -31,7 +31,8 @@ export default function About() {
               Mikkeli, Finland. Having recently graduated from the South-Eastern
               Finland University of Applied Sciences, I am currently working at
               Observis on situational awareness software. My technology stack
-              includes but is not limited to React, Redux, TypeScript and Java.
+              includes but is not limited to React, Redux, TypeScript, ES6 and
+              Java.
               <br />
               <br />
               {htmlToReactParser.parse(
@@ -41,9 +42,8 @@ export default function About() {
               <br />
               As the work presented in this portfolio hopefully reflects, I have
               valuable experience in multiple areas of technology and
-              innovation. I am looking for a place where I can combine my
-              technical skills and creativity to work on relevant projects that
-              I can be proud of.
+              innovation. In my work I combine my technical skills and
+              creativity to work on relevant projects that I can be proud of.
             </p>
           </div>
 
