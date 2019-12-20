@@ -10,7 +10,9 @@ export default function ProjectInfo(props) {
   return (
     <div className='project-item'>
       <div className='item-description'>
-        <h1>{props.title}</h1>
+        <h1>
+          {props.title} {props.year && ` (${props.year})`}
+        </h1>
         <Linkify
           className='project-description'
           properties={{ target: '_blank' }}

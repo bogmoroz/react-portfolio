@@ -28,22 +28,24 @@ export default function About() {
           <div className='bio'>
             <p>
               Hello! My name is Bogdan Moroz. I am a software developer based in
-              Mikkeli, Finland. Having recently graduated from the South-Eastern
-              Finland University of Applied Sciences, I am currently working at
-              Observis on situational awareness software. My technology stack
-              includes but is not limited to React, Redux, TypeScript, ES6 and
-              Java.
+              Mikkeli, Finland. Having recently graduated from the{' '}
+              <a
+                target='_blank'
+                href='https://www.xamk.fi/en/degree-blog/hands-experience-hardware-building-computer-networks/'
+              >
+                South-Eastern Finland University of Applied Sciences
+              </a>
+              , I am currently working at{' '}
+              <a target='_blank' href='https://www.observis.fi/'>
+                Observis
+              </a>{' '}
+              on situational awareness software. My technology stack includes
+              but is not limited to React, Redux, TypeScript, ES6 and Java.
               <br />
               <br />
               {htmlToReactParser.parse(
-                "For my bachelor's thesis I developed <a href='https://www.theseus.fi/handle/10024/184586' target='_blank'> a testing strategy for the frontend using Jest and Enzyme</a>, gaining knowledge of test automation and test-driven development in the process. I am well familiar with the scrum workflow, and have configured CI/CD pipelines using Jenkins and GitLab CI."
+                "For my bachelor's thesis I developed <a href='https://www.theseus.fi/handle/10024/184586' target='_blank'> a testing strategy for React applications using Jest and Enzyme</a>, gaining knowledge of test automation and test-driven development in the process. I am well familiar with the scrum workflow, and have configured CI/CD pipelines using Jenkins and GitLab CI."
               )}
-              <br />
-              <br />
-              As the work presented in this portfolio hopefully reflects, I have
-              valuable experience in multiple areas of technology and
-              innovation. In my work I combine my technical skills and
-              creativity to work on relevant projects that I can be proud of.
             </p>
           </div>
 
@@ -65,10 +67,10 @@ export default function About() {
             <h4>SW Dev Intern, Thesis Worker</h4>
             <p>September 2017 - December 2018</p>
             <p>
-              Multiple teams and projects including ObSAS (see projects) and a
-              dashboard web app for managing music festival programmes.
-              Established and documented a testing strategy for React-Redux
-              apps.
+              Multiple teams and projects including ObSAS (see software
+              projects) and a dashboard web app for managing music festival
+              programmes. Established and documented a testing strategy for
+              React-Redux apps.
             </p>
           </div>
 
@@ -80,8 +82,11 @@ export default function About() {
               As the programmer in a multidisciplinary team, I worked for
               MediaLAB and European Holocaust Research Infrastructure on ways of
               engaging young adults with studying history of the Holocaust.
-              After creating a number of prototypes, I built the website of the
-              Resonance project (see software projects).
+              After creating a number of prototypes, I built the website of the{' '}
+              <a target='_blank' href={'https://resonance.ehri-project.eu/'}>
+                Resonance project
+              </a>
+              .
             </p>
           </div>
         </div>
