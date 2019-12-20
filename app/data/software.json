@@ -31,14 +31,21 @@
     "id": 5,
     "title": "ObSAS",
     "year": "2018 - present",
-    "description": "Highly modular <a href='https://www.observis.fi/index.php/products' target='_blank'>situational awareness system</a>. I am primarily focused on the frontend with some backend contributions. Electron, React, Redux, TypeScript.",
+    "description": "Highly modular <a href='https://www.observis.fi/index.php/products' target='_blank'>situational awareness system</a>. I am primarily focused on the frontend but contribute on the backend as well. Electron, React, Redux, TypeScript.",
     "imageUrl": "https://res.cloudinary.com/bogmoroz/image/upload/v1566762363/observis-obsas-control-room-2_icdbyi.jpg"
+  },
+  {
+    "id": 6,
+    "title": "ObSAS LINK",
+    "year": "2019 - present",
+    "description": "<a href='https://www.observis.fi/index.php/obsas-link' target='_blank'>ObSAS LINK</a> is a mobile app that allows to connect legacy detectors to modern CBRN Situational Awareness Systems. React Native.",
+    "imageUrl": "https://res.cloudinary.com/bogmoroz/image/upload/v1576884157/LINK_odw6ne.png"
   },
   {
     "id": 7,
     "title": "DataPrisma Event App",
     "year": "2020",
-    "description": "A progressive web application for event management that displays data provided by the <a href='https://www.dataprisma.fi/en/kongressi' target='_blank'>Kongressi</a> system. Event schedule, news, map, notes editor, chat, social media integration. React Hooks, React Router, Material UI, Swagger API.",
+    "description": "A progressive web application for event attendees that displays data provided by the <a href='https://www.dataprisma.fi/en/kongressi' target='_blank'>Kongressi</a> system. Event schedule, news, map, notes editor, chat, social media integration. React Hooks, React Router, Material UI, Swagger API.",
     "imageUrl": "https://res.cloudinary.com/bogmoroz/image/upload/v1576882507/eventapp2_nfrxkg.png"
   }
 ]

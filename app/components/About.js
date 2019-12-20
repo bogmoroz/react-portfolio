@@ -40,7 +40,8 @@ export default function About() {
                 Observis
               </a>{' '}
               on situational awareness software. My technology stack includes
-              but is not limited to React, Redux, TypeScript, ES6 and Java.
+              but is not limited to React, React Native, TypeScript, ES6 and
+              Java.
               <br />
               <br />
               {htmlToReactParser.parse(
@@ -52,13 +53,11 @@ export default function About() {
           <div className='job job-1'>
             <h3>Observis Oy</h3>
             <h4>Software Developer</h4>
-            <p>January 2019 - Present</p>
+            <p>September 2017 - Present</p>
             <p>
-              Currently working on the next major version of the ObSAS client
-              (see software projects). Set up a GitLab CI pipeline for the
-              client. Implemented a solar panel grant application system in a
-              small team (see software projects). Responsibilities include code
-              review and providing guidance to new trainees and developers.
+              Working on web, desktop and mobile applications (see software
+              projects). Responsibilities include code review and providing
+              guidance to new trainees and developers.
             </p>
           </div>
 
@@ -69,7 +68,7 @@ export default function About() {
             <p>
               Multiple teams and projects including ObSAS (see software
               projects) and a dashboard web app for managing music festival
-              programmes. Established and documented a testing strategy for
+              programmes. Determined and documented a testing strategy for
               React-Redux apps.
             </p>
           </div>
