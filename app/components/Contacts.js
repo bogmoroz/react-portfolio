@@ -9,7 +9,9 @@ export default function Contacts() {
         </h1>
         <div className='boxes'>
           <div>
-            <span className='text-secondary'> mr.bogdan.moroz@gmail.com </span>
+            <span className='text-secondary email-address'>
+              mr.bogdan.moroz@gmail.com
+            </span>
           </div>
           <div>
             <a
