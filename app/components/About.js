@@ -2,7 +2,7 @@ import React from 'react';
 import { Parser } from 'html-to-react';
 import { useLocation } from 'react-router-dom';
 import { usePrevious } from '../utils';
-import avatar from '../images/avatar300.jpg';
+import avatar from '../images/avatar.jpg';
 
 export default function About() {
   var htmlToReactParser = new Parser();

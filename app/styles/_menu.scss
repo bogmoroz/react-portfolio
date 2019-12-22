@@ -80,9 +80,10 @@
     .portrait {
       width: 250px;
       height: 250px;
-      background: url('../images/avatar250.jpg');
+      background: url('../images/avatar.jpg');
       border-radius: 50%;
       border: solid 3px $secondary-text-color;
+      background-size: 250px;
     }
   }
 
