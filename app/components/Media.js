@@ -18,7 +18,8 @@ export default function Media() {
           Media <span className='text-secondary'>projects</span>
         </h1>
         <ProjectInfo
-          title='Forget Me Not (2016)'
+          title='Forget Me Not'
+          year='2016'
           description='<p>A short film I made while taking a course on visual media
         production at Aarhus University in Denmark in the summer of 2016. My primary
         role during production was sound and video editing, but I participated
@@ -29,7 +30,8 @@ export default function Media() {
         ></ProjectInfo>
 
         <ProjectInfo
-          title='The Last Sleepover (2015)'
+          title='The Last Sleepover'
+          year='2015'
           description='<p>A short film made during the Basics of Media Production course
         at South-Eastern Finland University of Applied Sciences in the spring of 2015. This was my
         first production where I participated in every aspect of the process. I
@@ -38,7 +40,8 @@ export default function Media() {
         ></ProjectInfo>
 
         <ProjectInfo
-          title='"Jukurit" Media Productions (2014 - 2015)'
+          title='"Jukurit" Media Productions'
+          year='2014 - 2015'
           description="<p>For a year in 2014-2015 I recorded games of a Mikkeli ice-hockey
         team 'Mikkelin Jukurit' for live broadcasts and highlights reels. There I got
         a lot of hands-on experience of working with a camera and setting up a large
