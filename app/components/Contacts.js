@@ -1,6 +1,15 @@
 import React from 'react';
+import { useLocation } from 'react-router-dom';
+import { usePrevious } from '../utils';
 
 export default function Contacts() {
+  const location = useLocation();
+  const prevLocation = usePrevious(location);
+
+  if (location !== prevLocation) {
+    window.scrollTo(0, 0);
+  }
+
   return (
     <>
       <div className='section-container contacts'>
