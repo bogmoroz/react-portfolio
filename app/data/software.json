@@ -10,42 +10,42 @@
     "id": 2,
     "title": "Smart Floor Sport",
     "year": "2016",
-    "description": "<p>As part of my studies at Amsterdam University of Applied Sciences, I have worked on a project for a company called <a href='http://trifork.com/' target='_blank'>Trifork</a>. We were building an Android application for a product named Smart Floor Sport - a floor that tracks athlete positions and allows gathering data on their speed, movements, tactics and much more. For me, this was a great learning experience as an Android developer, as well as an insight into how modern tech companies operate. More information about the project is available at https://www.smartfloor.com/.</p>",
+    "description": "<p>As part of my studies at Amsterdam University of Applied Sciences, I have worked on a project for a company called <a href='http://trifork.com/' target='_blank'>Trifork</a>. We were building an Android application for a product named Smart Floor Sport - a floor that tracks athlete positions and allows gathering data on their speed, movements and tactics. For me, this was a great learning experience as an Android developer, as well as an insight into how modern tech companies operate. More information about the project is available at https://www.smartfloor.com/.</p>",
     "imageUrl": "https://dvqlxo2m2q99q.cloudfront.net/000_clients/617667/file/617667hU5KYRVP.jpg"
   },
   {
     "id": 3,
     "title": "Resonance",
     "year": "2017",
-    "description": "<p>During my internship at <a href='http://medialabamsterdam.com' target='_blank'>MediaLAB Amsterdam</a> I have worked on a project for the <a href='https://ehri-project.eu/' target='_blank'>European Holocaust Research Infrastructure</a> devoted to ways of engaging young adults with the study of history of the Holocaust. After creating a number of prototypes involving React Native, native Android, Processing, Unity and more, I have built the end product - a website that allows musicians to share their renditions of songs written by Jewish composers in ghettos and concentration camps. The website is currently available at https://resonance.ehri-project.eu/</p>",
+    "description": "<p>During my internship at <a href='http://medialabamsterdam.com' target='_blank'>MediaLAB Amsterdam</a> I worked on a project for the <a href='https://ehri-project.eu/' target='_blank'>European Holocaust Research Infrastructure (EHRI)</a> devoted to ways of engaging young adults with the study of the history of the Holocaust. I was the only developer in a multidisciplinary team of designers and a historical researcher. After creating a number of prototypes involving React Native, native Android, Processing, Unity and other digital and physical mock ups, and after a series on meetings with EHRI, our team came up with the Resonance project. I built the website for the project. Resonance allows musicians to share their renditions of songs written by Jewish composers in ghettos and concentration camps. The website is currently available at https://resonance.ehri-project.eu/. </br></br> jQuery, SoundCloud API, OpenProcessing.</p>",
     "imageUrl": "https://dvqlxo2m2q99q.cloudfront.net/000_clients/617667/file/617667LKX1JCvp.png"
   },
   {
     "id": 4,
     "title": "Suur-Savon Energiasäätiö application system",
     "year": "2019",
-    "description": "An online application system to apply for financial support from the Savonia Energy Foundation for the purchase and installation of solar panels. Developed as part of my work for <a href='https://www.observis.fi/' target='_blank'>Observis</a>. Generates PDFs from submitted applications and allows to digitally sign them using the Visma Sign API. Over 260 people have signed up through the system. Available at https://hakemus.energiasaatio.fi/. React, React Router, Redux, Firebase.",
+    "description": "An online application system to apply for financial support from the Savonia Energy Foundation for the purchase and installation of solar panels. Developed with a team at <a href='https://www.observis.fi/' target='_blank'>Observis</a>. Generates PDFs from submitted applications and allows to digitally sign them using the Visma Sign API. Over 260 people have signed up through the system. Available at https://hakemus.energiasaatio.fi/. </br></br> React, React Router, Firebase.",
     "imageUrl": "https://res.cloudinary.com/bogmoroz/image/upload/v1566763308/hakemus3_n2y3wf.png"
   },
   {
     "id": 5,
     "title": "ObSAS",
     "year": "2018 - present",
-    "description": "Highly modular <a href='https://www.observis.fi/index.php/products' target='_blank'>situational awareness system</a>. I am primarily focused on the frontend but contribute on the backend as well. Electron, React, Redux, TypeScript.",
+    "description": "Highly modular <a href='https://www.observis.fi/index.php/products' target='_blank'>situational awareness system</a>. Developed with a team at <a href='https://www.observis.fi/' target='_blank'>Observis</a>. I am primarily focused on the frontend but contribute on the backend as well. </br></br> Electron, React, Redux, TypeScript.",
     "imageUrl": "https://res.cloudinary.com/bogmoroz/image/upload/v1566762363/observis-obsas-control-room-2_icdbyi.jpg"
   },
   {
     "id": 6,
     "title": "ObSAS LINK",
     "year": "2019 - present",
-    "description": "<a href='https://www.observis.fi/index.php/obsas-link' target='_blank'>ObSAS LINK</a> is a mobile app that allows to connect legacy detectors to modern CBRN Situational Awareness Systems. React Native.",
+    "description": "<a href='https://www.observis.fi/index.php/obsas-link' target='_blank'>ObSAS LINK</a> is a mobile app that allows to connect legacy detectors to modern CBRN Situational Awareness Systems. Developed with a team at <a href='https://www.observis.fi/' target='_blank'>Observis</a>. </br></br> React Native, React Native Snap Carousel, Material Design.",
     "imageUrl": "https://res.cloudinary.com/bogmoroz/image/upload/v1576884157/LINK_odw6ne.png"
   },
   {
     "id": 7,
     "title": "DataPrisma Event App",
     "year": "2020",
-    "description": "A progressive web application for event attendees that displays data provided by the <a href='https://www.dataprisma.fi/en/kongressi' target='_blank'>Kongressi</a> system. Event schedule, news, map, notes editor, chat, social media integration. React Hooks, React Router, Material UI, Swagger API.",
+    "description": "A progressive web application for event attendees that displays data provided by the <a href='https://www.dataprisma.fi/en/kongressi' target='_blank'>Kongressi</a> system. Event schedule, news, map, notes editor, chat, social media integration. Developed with a team at <a href='https://www.observis.fi/' target='_blank'>Observis</a>. </br></br> React Hooks, React Router, Material UI, Swagger API.",
     "imageUrl": "https://res.cloudinary.com/bogmoroz/image/upload/v1576882507/eventapp2_nfrxkg.png"
   }
 ]
