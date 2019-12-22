@@ -2,6 +2,7 @@ import React from 'react';
 import { Parser } from 'html-to-react';
 import { useLocation } from 'react-router-dom';
 import { usePrevious } from '../utils';
+import avatar from '../images/avatar300.jpg';
 
 export default function About() {
   var htmlToReactParser = new Parser();
@@ -20,11 +21,7 @@ export default function About() {
           About <span className='text-secondary'>me</span>
         </h1>
         <div className='about-info'>
-          <img
-            className='bio-image'
-            src='https://github.com/bogmoroz.png?size=300'
-            alt={'Github avatar'}
-          />
+          <img className='bio-image' src={avatar} alt={'Github avatar'} />
           <div className='bio'>
             <p>
               Hello! My name is Bogdan Moroz. I am a software developer based in
