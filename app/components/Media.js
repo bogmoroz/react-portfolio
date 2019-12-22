@@ -22,7 +22,7 @@ export default function Media() {
           description='<p>A short film I made while taking a course on visual media
         production at Aarhus University in Denmark in the summer of 2016. My primary
         role during production was sound and video editing, but I participated
-        in every stage of the production including scripting, storyboarding, location scouting and 
+        in every stage including scripting, storyboarding, location scouting and 
         camera work. The production was carried out under the guidance of Dr. Richard Raskin, an
         established short film director and theorist.</p>'
           videoUrl='https://www.youtube.com/embed/Qx4uN7dyJB4'
