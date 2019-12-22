@@ -2,6 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import Linkify from 'react-linkify';
 import { Parser } from 'html-to-react';
+import ImageZoom from 'react-medium-image-zoom';
 
 export default function ProjectInfo(props) {
   var htmlToReactParser = new Parser();
@@ -22,7 +23,16 @@ export default function ProjectInfo(props) {
       </div>
       {props.imageUrl ? (
         <div className='illustration-container'>
-          <img className='project-img' src={props.imageUrl} />
+          {/* <img className='project-img' src={props.imageUrl} /> */}
+          <ImageZoom
+            image={{
+              src: props.imageUrl,
+              className: 'project-img'
+            }}
+            zoomImage={{
+              src: props.imageUrl
+            }}
+          />
         </div>
       ) : props.videoUrl ? (
         <div className='illustration-container'>
