@@ -44,9 +44,6 @@ export default function About() {
               {htmlToReactParser.parse(
                 "For my bachelor's thesis I developed <a href='https://www.theseus.fi/handle/10024/184586' target='_blank'> a testing strategy for React applications using Jest and Enzyme</a>, gaining knowledge of test automation and test-driven development in the process."
               )}
-              {/*  {' '}
-              I am well familiar with the Scrum workflow, and have configured
-              CI/CD pipelines using Jenkins and GitLab CI. */}
             </p>
           </div>
 
