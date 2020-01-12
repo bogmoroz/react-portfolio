@@ -31,7 +31,7 @@
     "id": 5,
     "title": "Suur-Savon Energiasäätiö application system",
     "year": "2019",
-    "description": "An online application system to apply for financial support from the Savonia Energy Foundation for the purchase and installation of solar panels. Developed with a team at <a href='https://www.observis.fi/' target='_blank'>Observis</a>. Generates PDFs from submitted applications and allows to digitally sign them using the Visma Sign API. Over 260 people have signed up through the system. Available at https://hakemus.energiasaatio.fi/. </br></br> React, React Router, Firebase.",
+    "description": "An online application system to apply for financial support from the Savonia Energy Foundation for the purchase and installation of solar panels. Developed with a team at <a href='https://www.observis.fi/' target='_blank'>Observis</a>. Generates PDFs from submitted applications and allows to digitally sign them using the Visma Sign API. 260 people have signed up through the system. Available at https://hakemus.energiasaatio.fi/. </br></br> React, React Router, Firebase.",
     "imageUrl": "https://res.cloudinary.com/bogmoroz/image/upload/v1566763308/hakemus3_n2y3wf.png"
   },
   {
