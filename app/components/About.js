@@ -50,7 +50,7 @@ export default function About() {
           <div className='job job-1'>
             <h3>Observis Oy</h3>
             <h4>Software Developer</h4>
-            <p>September 2017 - Present</p>
+            <p>January 2019 - Present</p>
             <p>
               Working on web, desktop and mobile applications (see software
               projects). Responsibilities include code review and providing
