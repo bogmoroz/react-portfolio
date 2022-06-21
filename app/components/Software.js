@@ -32,7 +32,7 @@ export default function Software() {
           ))}
         </>
       </div>
-      <footer className='about-footer'>`Bogdan Moroz &copy; ${new Date().getFullYear()}`</footer>
+      <footer className='about-footer'>Bogdan Moroz &copy; new Date().getFullYear()</footer>
     </>
   );
 }
