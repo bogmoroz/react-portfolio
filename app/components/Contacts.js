@@ -42,7 +42,7 @@ export default function Contacts() {
           </div>
         </div>
       </div>
-      <footer className='about-footer'>Bogdan Moroz &copy; 2020</footer>
+      <footer className='about-footer'>Bogdan Moroz &copy; {new Date().getFullYear()}</footer>
     </>
   );
 }
