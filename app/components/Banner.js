@@ -20,7 +20,7 @@ function Banner() {
     color: "black",
   };
 
-  return <div style={style}>2023 Update coming soon</div>;
+  return <div style={style}>2024 Update coming soon</div>;
 }
 
 export default Banner;
