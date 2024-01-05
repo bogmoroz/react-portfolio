@@ -29,7 +29,7 @@ export default function About() {
           />
           <div className="bio">
             <p>
-            Hello! My name is Bogdan Moroz. I am a software engineer with a holistic goal-oriented vision for the systems that I build. My responsibilities include software architecture and service design, full-stack software engineering, project management work such as product backlog refinement and prioritization, as well as customer communication, which includes product demonstrations, training seminars, and requirements engineering.
+            Hello! My name is Bogdan Moroz. I am a software engineer with a holistic goal-oriented vision for the systems that I build. My responsibilities include software architecture, full-stack software engineering, project management work such as product backlog refinement and prioritization, as well as customer communication, which includes product demonstrations, training seminars, and requirements engineering.
             <br />
             <br />
             In software engineering, I consider frontend development with the web technology stack as my primary area of expertise. However, working in an agile team in a senior position I have been responsible for backend and API development countless times as well. While this is a lot of responsibilities, I am comfortable adjusting my role depending on the circumstances and consider that one of my core strengths.
