@@ -31,9 +31,13 @@ export default function About() {
           />
           <div className="bio">
             <p>
-              Hello! My name is Bogdan Moroz. I am a
-              software developer based in Mikkeli, Finland.
-              I've studied at{" "}
+            Hello! My name is Bogdan Moroz. I am a software engineer with a holistic goal-oriented vision for the systems that I build. My responsibilities include software architecture and service design, full-stack software engineering, project management work such as product backlog refinement and prioritization, as well as customer communication, which includes product demonstrations, software training seminars, and requirements engineering.
+            <br />
+            <br />
+            In software engineering, I consider frontend development with the web technology stack as my primary area of expertise. However, working in an agile team in a senior position I have been responsible for backend and API development countless times as well. While this is a lot of responsibilities, I am comfortable adjusting my role depending on the circumstances and consider that one of my core strengths.
+            <br />
+            <br />
+            I've studied at{" "}
               <a
                 target="_blank"
                 href="https://www.xamk.fi/en/degree-blog/hands-experience-hardware-building-computer-networks/"
@@ -47,10 +51,10 @@ export default function About() {
               >
                 LUT University
               </a>{" "}
-              with a Master's of Science in Technology.
+              with a Master's of Science in Technology. To keep my hand on the pulse of the emerging industry trends and satiate my curiosity for all things software, I am continuing my education with a doctoral programme at LUT.
               <br />
               <br />
-              Now I am working at{" "}
+              At the moment I'm working at{" "}
               <a
                 target="_blank"
                 href="https://www.observis.fi/"
@@ -68,59 +72,36 @@ export default function About() {
               My technology stack includes but is not
               limited to React, React Native, TypeScript,
               ES6 and Java.
-              {/* {htmlToReactParser.parse(
-                "For my bachelor's thesis I developed <a href='https://www.theseus.fi/handle/10024/184586' target='_blank'> a testing strategy for React applications using Jest and Enzyme</a>, gaining knowledge of test automation and test-driven development in the process."
-              )}
-              {htmlToReactParser.parse(
-                "For my bachelor's thesis I developed <a href='https://www.theseus.fi/handle/10024/184586' target='_blank'> a testing strategy for React applications using Jest and Enzyme</a>, gaining knowledge of test automation and test-driven development in the process."
-              )} */}
             </p>
+
           </div>
 
           <div className="job job-1">
             <h3>Observis Oy</h3>
-            <h4>Software Developer</h4>
-            <p>January 2019 - Present</p>
+            <h4>Lead Developer</h4>
+            <p>February 2023 - Present</p>
             <p>
-              Working on web, desktop and mobile
-              applications (see software projects).
-              Responsibilities include code review and
-              providing guidance to new trainees and
-              developers.
+              My responsibility in this new role is to ensure the continuous professional growth of our front-end teams,
+              and the use of the best tools and practices for each product and service.
             </p>
           </div>
 
           <div className="job job-2">
             <h3>Observis Oy</h3>
-            <h4>SW Dev Intern, Thesis Worker</h4>
-            <p>September 2017 - December 2018</p>
+            <h4>Software Engineer</h4>
+            <p>December 2018 - January 2023</p>
             <p>
-              Multiple teams and projects including ObSAS
-              (see software projects) and a dashboard web
-              app for managing music festival programmes.
-              Determined and documented a testing strategy
-              for React-Redux apps.
+              Multiple teams and projects, primarily focused on the ObSAS
+              situational awareness software.
             </p>
           </div>
 
           <div className="job job-3">
-            <h3>MediaLAB Amsterdam</h3>
-            <h4>Software Developer Intern</h4>
-            <p>Winter - Summer 2017</p>
+            <h3>LUT University</h3>
+            <h4>Doctoral Researcher</h4>
+            <p>May 2023 - Present</p>
             <p>
-              As the programmer in a multidisciplinary team,
-              I worked for MediaLAB and European Holocaust
-              Research Infrastructure on ways of engaging
-              young adults with studying history of the
-              Holocaust. After creating a number of
-              prototypes, I built the website of the{" "}
-              <a
-                target="_blank"
-                href={"https://resonance.ehri-project.eu/"}
-              >
-                Resonance project
-              </a>
-              .
+              My current research focus is in the area of software product management, specifically the emerging discipline of Product Ops, smooth product-led growth, and efficient operation at scale.
             </p>
           </div>
         </div>
